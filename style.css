@@ -4,6 +4,12 @@
     /* in border box the height and width is not added seperately */
     border:Border-box;
 }
+/* only for Desktop */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    body {
+      display: none;
+    }
+}
 .navbar{
     height: 60px;
     background-color:#0f1111;
